@@ -39,20 +39,48 @@
 
   </head>
     <style>
-        .myPost{
+        .iPost{
             background-color: #f9f9f9;
-            float: left;
             width: 100%;
             margin-top: 50px;
+            min-height: 250px;
+            margin-left: 0;
+            box-shadow: 0 0px 25px #169aaa52;
         }
 
-        .imgPost{
-            float: left;
-            height: 15vw;
+        .iimgPost{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
 
-        .contPost{
-            float: left;
+        .icontPost{
+          padding: 15px;
+          padding-left: 20px;
+          
+        }
+
+        .iimgContPost{
+          padding: 0;
+        }
+
+        .iaTitle{
+          color: #444;
+          font-size: 1.6em;
+          font-weight: 600;
+          font-family: "Montserrat", sans-serif;
+        }
+
+        .ipDesc{
+          margin-top: 10px;
+          color: #4A4A4A;
+        }
+
+        .ipTag{
+          margin:0;
+          color: #169AAA;
+          margin-bottom: 10px;
+          font-weight: 600;
         }
     </style>
   <body>
@@ -111,8 +139,24 @@
                 <h3>LATEST POSTS</h3>
                 
                 <div style="background-color: #444; height: 3px;"></div>
-
-                <div class="myPost">
+                <div class="iPost row">
+                  <div class="col-md-4 iimgContPost">
+                      <img src="./assets/post/1.jpg" alt="Post image" class="iimgPost" />
+                  </div>
+                  <div class="icontPost col-md-8">
+                      <p class="ipTag text-right">Nomtes Update</p>
+                      <a href="./post.html?id=1" target="_blank" class="iaTitle">Nomtes updated with many new Icon, Bookmark support, Videos support and more...</a>
+                      <p class="ipDesc">
+                        In august this year xbotics launched their first android application “NOMTES” ,all in one notes app for college student in where they can access syllabus, Question paper, lectures videos, notes of all subject of every semester of different courses conducted by IPU .
+                      </p>
+                      <div>
+                        <p class="ipTag" style="float: left;">17 Sept 2020</p>
+                        <p class="ipTag" style="float: right;">By Xbotics7</p>
+                      </div>
+                      <div style="clear: both;"></div>
+                  </div>
+              </div>
+                <!-- <div class="myPost">
                     <div>
                         <img src="./assets/cheems.png" class="imgPost" />
                     </div>
@@ -123,7 +167,7 @@
                         </p>
                     </div>
                 </div>
-                <div style="clear: both;"></div> 
+                <div style="clear: both;"></div>  -->
             </div>
         </section>
     </main>

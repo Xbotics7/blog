@@ -39,20 +39,26 @@
 
   </head>
     <style>
-        .myPost{
-            background-color: #f9f9f9;
-            float: left;
-            width: 100%;
-            margin-top: 50px;
+        .pPost{
+            background-color: #FBFBFB;
+            box-shadow: 0 0px 25px #169aaa52;
+            padding: 20px;
         }
 
-        .imgPost{
-            float: left;
-            height: 15vw;
+        .pPTag{
+          margin:0;
+          color: #169AAA;
+          margin-bottom: 20px;
+          font-weight: 600;
         }
 
-        .contPost{
-            float: left;
+        #elTitle{
+          font-weight: 600;
+          font-size: calc(100% + 1vw);
+        }
+
+        #elPostImage{
+          width: 100%;
         }
     </style>
   <body>
@@ -107,15 +113,14 @@
    
     <main id="main" style="padding-top: 150px; padding-bottom: 30px;">
         <section id="posts">
-            <div class="container">
-                <h1>Nomtes updated with many new features and UI changes.</h1>
+            <div class="container pPost">
+                <h1 id="elTitle">Nomtes updated with many new features and UI changes.</h1>
                 <div class="row">
-                  <p class="col-auto">By Xbotics</p>
-                  <p class="col-auto">By Xbotics</p>
-                  <p class="col-auto">By Xbotics</p>
-                  <p class="col-auto">By Xbotics</p>
+                  <p class="col-auto pPTag">By Xbotics</p>
+                  <p class="col-auto pPTag" id="elDate"></p>
+                  <p class="col-auto pPTag">Nomtes Update</p>
                 </div>
-                <img src="./assets/bgPost.jpg" class="imgPostMain" />
+                <img alt="Post Image" id="elPostImage" />
                 <p>
                   
                 </p>
