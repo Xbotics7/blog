@@ -41,13 +41,13 @@
     <style>
         .pPost{
             background-color: #FBFBFB;
-            box-shadow: 0 0px 25px #169aaa52;
-            padding: 20px;
+            box-shadow: 0 0px 15px #79002d52;
+            padding: 30px;
         }
 
         .pPTag{
           margin:0;
-          color: #169AAA;
+          color: #79002d;
           margin-bottom: 20px;
           font-weight: 600;
         }
@@ -59,6 +59,63 @@
 
         #elPostImage{
           width: 100%;
+        }
+
+        .pPDesc{
+          margin-top: 20px;
+        }
+
+        .pSummary{
+          background: #f3f3f3;
+          padding:30px;
+        }
+
+        #elSummary{
+          line-height: 2.5;
+          font-size: 1.1em;
+        }
+
+        .pSummary_Border{
+          background: #79002d;
+          height: 6px;
+          width: 40%;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+
+        .pDownload_Border{
+          background: #444;
+          height: 6px;
+          margin: auto;
+        }
+
+        .pHSummary_Title{
+          color: #79002d;
+          font-weight: 600;
+          margin: 0;
+        }
+
+        .pHDownload_Title{
+          font-size: 2.1em;
+          margin: 0 20px;
+          letter-spacing: 8px;
+        }
+
+        .pNomtes_Icon{
+          max-height: 100px;
+        }
+
+        .pPNomtes_Title{
+          color: #fff;
+
+        }
+
+        .pPNomtes_Version{
+          color: #fff;
+        }
+
+        .pANomtes_Download{
+          color: #fff !important;
         }
     </style>
   <body>
@@ -78,14 +135,14 @@
       <div class="container">
   
         <div class="logo float-left">
-          <h1 class="text-light"><a href="#intro" class="scrollto"><span>XBOTICS7</span></a></h1>
+          <h1 class="text-light"><a href="https://xbotics7.github.io/" class="scrollto"><span>XBOTICS7</span></a></h1>
           <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
         </div>
   
         <nav class="main-nav float-right d-none d-lg-block">
           <ul>
-            <li class="active"><a href="#intro">Home</a></li>
-            <li><a href="#posts">Posts</a></li>
+            <li><a href="https://xbotics7.github.io/">Home</a></li>
+            <li><a href="https://xbotics7.github.io/blog">Posts</a></li>
             <li><a href="#footer">About Us</a></li>
             <!--<li class="drop-down"><a href="">Drop Down</a>
               <ul>
@@ -121,9 +178,30 @@
                   <p class="col-auto pPTag">Nomtes Update</p>
                 </div>
                 <img alt="Post Image" id="elPostImage" />
-                <p>
-                  
-                </p>
+                <p id="elTopDesc" class="pPDesc"></p>
+                <div class="pSummary">
+                  <h1 class="pHSummary_Title">WHAT'S NEW ?</h1>
+                  <div class="pSummary_Border"></div>
+                  <p id="elSummary"></p>
+                </div>
+                <p id="elBottomDesc" class="pPDesc"></p>
+                <div class="row" style="margin: 0;">
+                  <div class="col-md pDownload_Border"></div>
+                  <h1 class="col-md-auto text-center pHDownload_Title">DOWNLOAD</h1>
+                  <div class="col-md pDownload_Border"></div>
+                </div>
+                <div class="row" style="margin: 0; background: #79002D; margin-top: 20px;">
+                  <div class="row col-sm" style="margin: 0;">
+                    <img class="col-xs pNomtes_Icon" src="./assets/nomtes_icon.png" />
+                    <div>
+                      <p class="pPNomtes_Title">Nomtes</p>
+                      <p class="pPNomtes_Version">V 1.2</p>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <a class="pANomtes_Download"><i class="fas fa-chevron-circle-down"></i></a>
+                  </div>
+                </div>
             </div>
         </section>
     </main>
