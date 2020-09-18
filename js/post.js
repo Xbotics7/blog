@@ -17,7 +17,8 @@ if(name == "1"){
     We have been working hard since then to continuously improve the app. Nomtes didn’t had all the features we planned for in the first version and therefore, we are very excited to announce the new update which includes all the features missing in the first version and more. There are new features, updated UI and more in this update. It is more beautiful, powerful and fast than before.<br><br>\
     Here’s a quick list of some of the changes which we have made in the new update.\
 ";
-    elSummary.innerHTML = "• 'New' Videos for respective subjects are now finally available to watch.<br>\
+    elSummary.innerHTML = "• 'New' A brand new Re-designed Nomtes App Icon.<br>\
+    • 'New' Videos for respective subjects are now finally available to use. Watch different lectures videos of subjects within app easily.<br>\
     • 'New' Bookmark is finally available to use. Bookmark your notes, book, videos for easy access.<br>\
     • 'New' Added Dropdown button in Subjects page where you can quickly access notes, videos, books etc of respective subjects.<br>\
     • ''New'' Added Option to check syllabus.<br>\
