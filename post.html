@@ -39,6 +39,12 @@
 
   </head>
     <style>
+
+      #main{
+        padding-top: 80px;
+      }
+
+      
         .pPost{
             background-color: #FBFBFB;
             box-shadow: 0 0px 15px #79002d52;
@@ -73,8 +79,8 @@
         }
 
         #elSummary{
-          line-height: 2.5;
-          font-size: 1.1em;
+          line-height: 2;
+          font-size: 1.0em;
         }
 
         .pSummary_Border{
@@ -95,6 +101,7 @@
           color: #79002d;
           font-weight: 600;
           margin: 0;
+          font-size: 2.1em;
         }
 
         .pHDownload_Title{
@@ -128,6 +135,18 @@
           background: #950038;
           width: 100%;
         }
+
+        @media (min-width: 991px) {
+        #main{
+          padding-top:150px;
+        }
+        #elSummary{
+          line-height: 2.5;
+          font-size: 1.1em;
+        }
+        
+      }
+
         
     </style>
   <body>
@@ -180,7 +199,7 @@
       </div>
     </header>
    
-    <main id="main" style="padding-top: 150px; padding-bottom: 30px;">
+    <main id="main" style="padding-bottom: 30px;">
         <section id="posts">
             <div class="container pPost">
                 <h1 id="elTitle">Nomtes updated with many new features and UI changes.</h1>
@@ -197,7 +216,7 @@
                   <p id="elSummary"></p>
                 </div>
                 <p id="elBottomDesc" class="pPDesc"></p>
-                <div class="row" style="margin: 0;">
+                <div class="row" style="margin: 0; margin-top: 100px;">
                   <div class="col-md pDownload_Border"></div>
                   <h1 class="col-md-auto text-center pHDownload_Title">DOWNLOAD</h1>
                   <div class="col-md pDownload_Border"></div>
