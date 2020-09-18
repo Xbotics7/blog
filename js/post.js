@@ -13,9 +13,9 @@ if(name == "1"){
     elTitle.innerHTML = "Nomtes updated with many new Icon, Bookmark support, Videos support and more...";
     elDate.innerHTML = "17 Sep 2020";
     elImage.src = "./assets/post/1.jpg";
-    elTopDesc.innerHTML = "In August this year we launched our first android application “NOMTES”, a all in one notes app for college BCA student where they can easily access syllabus, Question paper, lectures videos, notes of all subjects. <br><br>\
-    We have been working hard since then to continuously improve the app. Nomtes didn’t had all the features we planned for in the first version and therefore, we are very excited to announce the new update which includes all the features missing in the first version and more. Nomtes UI has been updated quite a lot. It is more beautiful, fast than before.<br><br>\
-Here’s a quick list of some of the changes which we have made in the new update.\
+    elTopDesc.innerHTML = "In August this year we launched our first android application “NOMTES”, a all in one notes app for BCA students in college where they can easily access quality notes, books, syllabus, Question paper, lectures videos of all subjects.<br><br>\
+    We have been working hard since then to continuously improve the app. Nomtes didn’t had all the features we planned for in the first version and therefore, we are very excited to announce the new update which includes all the features missing in the first version and more. There are new features, updated UI and more in this update. It is more beautiful, powerful and fast than before.<br><br>\
+    Here’s a quick list of some of the changes which we have made in the new update.\
 ";
     elSummary.innerHTML = "• 'New' Videos for respective subjects are now finally available to watch.<br>\
     • 'New' Bookmark is finally available to use. Bookmark your notes, book, videos for easy access.<br>\
