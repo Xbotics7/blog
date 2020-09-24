@@ -28,7 +28,7 @@ if(name == "1"){
     • Bugs Fixes and Performance Improvements.<br>\
     ";
     
-    elBottomDesc.innerHTML= "There’s a link right below where can you download and install the latest update.<br>\
+    elBottomDesc.innerHTML= "There’s a link right below where you can download and install the latest update.<br>\
     Let us know what do you think of the update. Any kind of feedback is very much appreciated. .<br>\
     There’s more to come soon. So, Stay Tuned! .<br><br>\
     Thank you very much!\
